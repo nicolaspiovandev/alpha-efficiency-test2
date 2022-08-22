@@ -1,0 +1,102 @@
+ /* Google Fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat&display=swap');
+
+ * {
+     margin: 0%;
+     padding: 0%;
+     scroll-behavior: smooth;
+     z-index: 1000;
+ }
+
+ /* Navbar */
+ .navbar {
+     display: flex;
+     justify-content: center;
+     text-decoration: none;
+     background-color: transparent;
+     font-family: Montserrat;
+     font-size: 14px;
+
+ }
+
+ .navbar ul {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     list-style: none;
+     margin: 30px;
+ }
+
+ .navbar ul li {
+     margin: 12px;
+ }
+
+ .navbar ul li a {
+     color: #333333;
+ }
+
+ /* Main */
+ .main {
+     background-color: #F9F9F9;
+     padding-top: 183px;
+ }
+
+ .section1{
+    background-color: #DD71C6;
+    height: 400px;
+ }
+
+ .section2{
+    background-color: #73C3F4;
+    height: 400px;
+ }
+ .section3{
+    background-color: #fefefe;
+    height: 500px;
+ }
+ .section4{
+    background-color: #F9F9F9;
+    height: 500px;
+ }
+ .section5{
+    background-color: #fefefe;
+    height: 500px;
+ }
+
+ .main .simecircle {
+     position: absolute;
+     top: 150px;
+     left: -193px;
+     width: 386px;
+     height: auto;
+     z-index: 800;
+ }
+
+ .title {
+     margin-top: 21px;
+     font-family: Libre Baskerville;
+     font-size: 45px;
+ }
+
+ .consultation p {
+     font-family: Montserrat;
+     font-size: 16px;
+ }
+
+ .color-btn {
+     font-family: Montserrat-SemiBold;
+     border: solid 0.5px #dd71c6;
+     display: flex;
+     justify-content: center;
+     width: 204px;
+     height: 40px;
+     background: #dd71c6;
+     color: #fff;
+     margin-bottom: 115px;
+ }
+
+ .color-btn p {
+     margin: 3px;
+     padding: 4px;
+ }
